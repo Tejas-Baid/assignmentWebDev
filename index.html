@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel = "stylesheet" href = "style.css">
+    <script src = "script.js"></script>
+</head>
+<body>
+    <div class="navbar">
+        <div id = "title">UFC</div>
+        <div class = "menu">Overview</div>
+        <div class = "menu">Highlights</div>
+        <div class = "menu">Rankings</div>
+        <div class = "menu">Upcoming</div>
+    </div>
+    <img src = "sandhagen-vs-nurmagomedov-2.webp" alt = "fightNight" width = "1400" height ="600">
+    <div id = "Overview" class = "headings" >
+        <h1 class = "topic">Overview</h1>
+        <p class = "para">
+            The Ultimate Fighting Championship (UFC) is a premier mixed martial arts (MMA) organization globally, 
+            known for hosting some of the most high-profile and competitive bouts in combat sport. Founded in 1993, 
+            the UFC is headquartered in Las Vegas, Nevada, and has played a significant role in popularizing MMA 
+            worldwide
+        </p>
+        <details style = "font-size: 20px;">
+            <summary>History</summary>
+            <p>Established in 1993 by Art Davie and Rorion Gracie, among others, to identify the most effective
+                 martial art in a real fight. Initially, there were no weight classes, minimal rules, and 
+                 fights ended only by knockout, submission, or the corner throwing in the towel.
+                Over time, the UFC introduced weight classes, rounds, and a standardized set of rules to ensure fighter safety and gain mainstream acceptance.
+                </p>
+        </details>
+        <details style = "font-size: 20px;">
+            <summary>Rules</summary>
+            <p>The UFC follows the Unified Rules of MMA, with fights typically consisting of three or five 
+                five-minute rounds. Permitted techniques include striking and grappling, while illegal actions
+                 encompass strikes to the back of the head, eye gouging, and groin attacks. Fights can end via
+                  knockout, submission, decision, or disqualification.
+                </p>
+        </details>
+
+        <details style = "font-size: 20px;">
+            <summary>Divsions</summary>
+            <p>The UFC has multiple weight classes for both men and women, each with its own championship title:</p>
+            <ol>
+                <li>Flyweight: Up to 125 lbs (56.7 kg)</li>
+                <li>Bantamweight: Up to 135 lbs (61.2 kg)</li>
+                <li>Featherweight: Up to 145 lbs (65.8 kg)</li>
+                <li>Lightweight: Up to 155 lbs (70.3 kg)</li>
+                <li>Welterweight: Up to 170 lbs (77.1 kg)</li>
+                <li>Middleweight: Up to 185 lbs (83.9 kg)</li>
+                <li>Light Heavyweight: Up to 205 lbs (93 kg)</li>
+                <li>Heavyweight: 205 to 265 lbs (93 to 120.2 kg)</li>
+            </ol>
+        </details>
+    </div>
+
+    <div id = "Highlights" >
+        <h1 style = "color:rgb(236, 244, 251)" class="title">HIGHLIGHTS</h1>       
+        <a href="https://www.youtube.com/watch?v=8MnmTOT2eVc"><img src="GEASx1gWkAExmFo.jpg-large.jpeg" alt = "gaethje vs hollaway" id = "image1"></a>
+        <a href = "https://www.youtube.com/watch?v=yKdi_7cscd0&t=25s"><img src="Adesanya-Pereira.jpg.webp" alt = "adesanya vs periera" id = "image2"></a>
+        <a href = "https://www.youtube.com/watch?v=qB1Pyv4k9w0"><img src="Unknown.jpeg" alt = "porier vs islam" id = "image3"></a>
+    </div>
+    <p id = "rankTitle" class="title">Rankings</p>
+    <div id = "Rankings">
+    <div class = "rank">
+        <span class = "category">FEATHERWEIGHT</span>
+        <ol>
+            <li>Alexander Volkanovski</li>
+            <li>Max Holloway</li>
+            <li>Brian Ortega</li>
+            <li>Yair Rodriguez</li>
+            <li>Movsar Evloev</li>
+            <li>Arnold Allen</li>
+            <li>Josh Emmett</li>
+            <li>Aljamain Sterling</li>
+            <li>Calvin Kattar</li>
+            <li>Giga Chikadze</li>
+
+        </ol>
+    </div>
+    <div class = "rank">
+        <span class = "category">LIGHTWEIGHT</span>
+        <ol>
+            <li>Arman Tsarukyan	
+            <li>Charles Oliveira</li>
+            <li>Justin Gaethje</li>
+            <li>Dustin Poirier</li>
+            <li>Mateusz Gamrot</li>
+            <li>Michael Chandler</li>	
+            <li>Beneil Dariush</li>
+            <li>Rafael Fiziev</li>
+            <li>Max Holloway</li>
+            <li>Renato Moicano</li>
+        </ol>
+    </div>
+    <div class = "rank">
+        <span class = "category">MIDDLEWEIGHT</span>
+        <ol>
+            <li>Sean Strickland	
+            <li>Israel Adesanya</li>
+            <li>Robert Whittaker</li>
+            <li>Nassourdine Imavov</li>
+            <li>Jared Cannonier	</li>
+            <li>Marvin Vettori	</li>
+            <li>Brendan Allen</li>	
+            <li>Paulo Costa	</li>
+            <li>Jack Hermansson</li>
+             <li>Roman Dolidze</li>
+        </ol>
+    </div>
+    </div>
+    <div id = "Upcoming" class = "title">UPCOMING MATCHES</div>
+
+
+    <div class="slideshow-container">
+        <div class="mySlides fade">
+          <div class="numbertext">1 / 3</div>
+          <img src="periera.jpeg" style="width:100%">
+        </div>
+        
+        <div class="mySlides fade">
+          <div class="numbertext">2 / 3</div>
+          <img src="UFC-Fight-Night-620_1920x1080_v4.jpg" style="width:100%">
+        </div>
+        
+        <div class="mySlides fade">
+          <div class="numbertext">3 / 3</div>
+          <img src="yan.jpeg" style="width:100%">
+        </div>
+        
+        <a class="prev" onclick="plusSlides(-1)">❮</a>
+        <a class="next" onclick="plusSlides(1)">❯</a>
+        
+        </div>
+        <br>
+        
+        <div style="text-align:center">
+          <span class="dot" onclick="currentSlide(1)"></span> 
+          <span class="dot" onclick="currentSlide(2)"></span> 
+          <span class="dot" onclick="currentSlide(3)"></span> 
+        </div>
+</body>
+</html>
